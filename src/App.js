@@ -1,14 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Clock from './Components/Clock';
-import Blogpost from './Components/Blogpost';
+import Post from './Components/Post'
 
 
 function App() {
   return (
     <div>
       <Clock/>
-      <Blogpost/>
+      <Post/>
     </div>
     
   );
