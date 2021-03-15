@@ -1,7 +1,8 @@
 
 import './App.css';
 import Clock from './Components/Clock';
-import Post from './Components/Post'
+import Post from './Components/Post';
+import Quotes from './Components/Quotes';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Clock/>
       <Post/>
+      <Quotes/>
     </div>
     
   );
